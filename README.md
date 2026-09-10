@@ -8,3 +8,5 @@ Crear un esquema en Databricks Unity Catalog mediante Liquibase y versionar el c
 - Liquibase Community
 - Databricks Free Edition
 - Unity Catalog
+
+- Despliegue verificado en Databricks Unity Catalog.
