@@ -1,7 +1,7 @@
 --liquibase formatted sql
 --changeset estudiante:007
 
-CREATE TABLE IF NOT EXISTS ucv_bi.gold.fact_sales (
+CREATE TABLE IF NOT EXISTS workspace.bi_lab_7003166672.fact_sales (
     sale_id BIGINT,
     date_key INT,
     product_key BIGINT,

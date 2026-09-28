@@ -1,7 +1,7 @@
 --liquibase formatted sql
 --changeset estudiante:005
 
-CREATE TABLE IF NOT EXISTS ucv_bi.gold.dim_customer (
+CREATE TABLE IF NOT EXISTS workspace.bi_lab_7003166672.dim_customer (
     customer_key BIGINT,
     customer_id BIGINT,
     customer_name STRING,

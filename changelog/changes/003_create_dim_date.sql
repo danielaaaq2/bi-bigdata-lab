@@ -1,7 +1,7 @@
 --liquibase formatted sql
 --changeset estudiante:003
 
-CREATE TABLE IF NOT EXISTS ucv_bi.gold.dim_date (
+CREATE TABLE IF NOT EXISTS workspace.bi_lab_7003166672.dim_date (
     date_key INT,
     full_date DATE,
     day INT,
