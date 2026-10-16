@@ -28,8 +28,8 @@ databaseChangeLog:
       file: changes/010_create_customers_raw.sql
       relativeToChangelogFile: true
   - include:
-      file: changelog/changes/011_create_stores_raw.sql
-      relativeToChangelogFile: false
+      file: changes/011_create_stores_raw.sql
+      relativeToChangelogFile: true
   - include:
-    file: changes/012_alter_sales_raw_add_columns.sql
-    relativeToChangelogFile: true
+      file: changes/012_alter_sales_raw_add_columns.sql
+      relativeToChangelogFile: false
